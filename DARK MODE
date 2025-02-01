@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark MODE</title>
+    <style>
+        body{
+    background-color: white;
+    margin: 10px;
+}
+.check{
+    background-color: black;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+}
+span{
+    font-size: 40px;
+color:orange;
+}
+.para{
+    color: green;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="check"></div><span>Click to change background color</span>
+    <div class="para" >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quam, voluptatum similique facilis voluptatem
+            pariatur fugit atque rem, maiores consequatur eum cumque vero recusandae libero harum numquam facere sed! Ea
+            est magnam quis fugiat aut placeat, neque eius saepe amet! Repellendus delectus illum ad modi accusantium
+            vel cumque quis impedit nobis nam, quae itaque eum, explicabo amet doloribus ab repudiandae. Ab nihil quas
+            ad cumque possimus. Repellendus pariatur voluptatem temporibus doloremque maxime iure itaque ipsum optio!
+            Aperiam inventore amet cupiditate deleniti hic in? Quidem corporis quas quos nobis, unde eligendi doloribus
+            id itaque exercitationem omnis ex molestias et consequatur ipsam iure possimus officia repellat odit.
+            Commodi deleniti sit nulla vitae illum corrupti? Veniam amet nulla nisi ad cumque repellat, iste deleniti
+            beatae enim sint consequuntur laborum voluptate facilis illum, reprehenderit quisquam dolorum! Iste hic
+            accusantium libero fuga ipsam nihil illo accusamus? Necessitatibus dignissimos consequatur nostrum rerum
+            illum excepturi perspiciatis asperiores atque a nesciunt fugiat ratione assumenda cupiditate id culpa unde
+            praesentium, ea obcaecati facilis cumque corporis veniam, itaque quod? Voluptate soluta molestiae incidunt,
+            numquam ducimus ut quam pariatur sunt voluptatum magnam vel amet id, tempora illum aperiam nobis provident
+            quae sit? Doloribus, in. Alias quo nostrum voluptates dolore ducimus id quibusdam, ipsam recusandae
+            reprehenderit unde et eveniet cum veritatis nulla excepturi itaque laudantium minima sapiente, at fuga
+            corrupti praesentium mollitia nihil saepe? Placeat dolor aliquam corporis a, deleniti, perspiciatis
+            exercitationem provident quisquam, assumenda ad nostrum recusandae expedita velit aperiam! Fuga officia
+            aperiam fugiat id, placeat eum iure dolores ullam quos perspiciatis quisquam inventore ut similique magni
+            dolore itaque molestias dolorem nam ea. Velit distinctio placeat deserunt, repellat suscipit sit tenetur
+            quae voluptas necessitatibus, odio ullam, quia laborum tempora quasi cupiditate accusantium nihil a aliquid
+            enim? Nobis distinctio sequi doloribus fugiat accusamus eaque commodi, vero delectus aliquid neque cumque
+            aut eos fugit eum itaque. Ea aspernatur nulla, repudiandae quasi dolor pariatur aut optio illo. Soluta
+            assumenda, labore id nobis facere cum asperiores, qui inventore libero minima voluptatibus laudantium ullam
+            obcaecati repellat. Vel, ad. Libero fugit aliquid alias excepturi perspiciatis possimus, iure sit quae autem
+            ipsa, quasi sed suscipit nesciunt quisquam, eum reiciendis qui natus non officia iste ea. Earum maxime
+            deleniti maiores aliquid corporis eaque, fuga distinctio inventore blanditiis commodi fugit adipisci eum
+            explicabo necessitatibus rerum assumenda minima cum temporibus saepe veniam molestias. Dignissimos eveniet
+            labore consequatur nesciunt molestiae at! Excepturi dolore assumenda at, possimus sapiente sunt explicabo
+            obcaecati eos, natus soluta odio aperiam aspernatur rerum quas sequi in, animi ratione? Facilis sint
+            nesciunt dignissimos, necessitatibus assumenda dolorum laudantium, velit deleniti corrupti provident sed
+            placeat incidunt facere numquam? Blanditiis maiores nobis possimus rerum, facilis perspiciatis molestias
+            debitis praesentium facere. Accusamus fugiat recusandae excepturi at culpa eaque a quod cupiditate veniam
+            nemo! Quas optio deleniti in laboriosam reiciendis maiores vero, dolorum cum debitis odio rem fugiat
+            doloremque ut placeat nostrum harum! Numquam voluptate aperiam nulla. Itaque quos soluta nulla
+            reprehenderit! Commodi aliquam obcaecati animi. Voluptate velit beatae tempora corrupti, accusantium
+            molestiae labore inventore deleniti fugit odit explicabo dolorum ullam recusandae ut veniam.
+    </div>
+
+</body>
+<script>
+    const check=document.querySelector('.check')
+const body=document.querySelector('body')
+ let c=0;
+check.addEventListener('click',function(e){
+    if(c%2==0)
+    {
+        body.style.backgroundColor='black'
+        check.style.backgroundColor='white'
+        c++
+    }
+    else if(c%2!=0)
+    {
+        body.style.backgroundColor='white'
+        check.style.backgroundColor='black'
+        c++
+    }
+})
+</script>
+
+</html>
